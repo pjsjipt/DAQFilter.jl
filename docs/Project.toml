@@ -1,0 +1,3 @@
+[deps]
+DAQFilter = "f95cc687-6d54-47f8-86df-4ed6a280c3e6"
+Documenter = "e30172f5-a6a5-5a46-863b-614d45cd2de4"
