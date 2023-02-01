@@ -3,6 +3,13 @@ uuid = "f95cc687-6d54-47f8-86df-4ed6a280c3e6"
 authors = ["Paulo José Saiz Jabardo"]
 version = "0.1.0"
 
+[deps]
+DAQCore = "7b03aed3-9854-4651-ba28-76b88bef8818"
+DAQHDF5 = "3679571a-6675-409e-9618-c02a2349284e"
+DSP = "717857b8-e6f2-59f4-9121-6e50c889abd2"
+FFTW = "7a1cc6ca-52ef-59f5-83cd-3a7055c09341"
+Polynomials = "f27b6e38-b328-58d1-80ce-0feddd5e7a45"
+
 [compat]
 julia = "1"
 
