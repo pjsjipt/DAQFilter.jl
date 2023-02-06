@@ -9,6 +9,7 @@ DAQHDF5 = "3679571a-6675-409e-9618-c02a2349284e"
 DSP = "717857b8-e6f2-59f4-9121-6e50c889abd2"
 FFTW = "7a1cc6ca-52ef-59f5-83cd-3a7055c09341"
 Polynomials = "f27b6e38-b328-58d1-80ce-0feddd5e7a45"
+Statistics = "10745b16-79ce-11e8-11f9-7d13ad32a3b2"
 
 [compat]
 julia = "1"
