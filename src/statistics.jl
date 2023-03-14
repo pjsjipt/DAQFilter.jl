@@ -1,12 +1,11 @@
+using Statistics
 
-
-struct DaqStats{Fun,CH} <: AbstractDaqFilter
+struct DaqStats{Fun} <: AbstractDaqFilter
     fun::Fun
-    chans::CH
 end
 
-DaqStats(fun::Fun) where {Fun <: Function} = DaqStats(fun, :)
-DaqStats(fun::Function, chans::CH) where {Fun<:Function,CH} =
+DaqStats(fun::Fun) where {Fun <: Function} = DaqStats(fun, :, :)
+DaqStats(fun::Function, chans::ICH) where {Fun<:Function,ICH,OCH} =
     DaqStats(fun,chans)
 
 
